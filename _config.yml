@@ -1,0 +1,30 @@
+title: QuantumScribe
+tagline: "Physics notes, research & projects by Kumar Azad"
+description: >-
+  BSc Physics student writing about quantum mechanics, thermodynamics,
+  electrodynamics, and more. NEET 2026 | AI/ML enthusiast.
+baseurl: "/quantumscribe.github.io"
+url: "https://krazad0.github.io"
+github_username: KrAzad0
+
+theme: minima
+minima:
+  skin: dark
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - notes/index.md
+  - projects/index.md
+  - research/index.md
+  - resume/index.md
+
+mathjax: true
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+permalink: pretty
